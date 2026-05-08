@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- Weight plate (rect x=9 y=4 w=10 h=6 rx=1.5) -->
+    <path
+        android:pathData="M10.5,4 L17.5,4 A1.5,1.5,0,0,1,19,5.5 L19,8.5 A1.5,1.5,0,0,1,17.5,10 L10.5,10 A1.5,1.5,0,0,1,9,8.5 L9,5.5 A1.5,1.5,0,0,1,10.5,4 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2" />
+    <!-- Vertical bar -->
+    <path
+        android:pathData="M14,10 L14,16"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2.5" />
+    <!-- Horizontal bar -->
+    <path
+        android:pathData="M8,16 L20,16"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Left leg -->
+    <path
+        android:pathData="M10,16 L8,23"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Right leg -->
+    <path
+        android:pathData="M18,16 L20,23"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+</vector>

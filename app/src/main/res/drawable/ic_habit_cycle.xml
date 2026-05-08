@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- Wheel (circle cx=14 cy=18 r=6, stroke) -->
+    <path
+        android:pathData="M8,18 a6,6,0,1,0,12,0 a6,6,0,1,0,-12,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2" />
+    <!-- Hub (circle cx=14 cy=18 r=2, fill) -->
+    <path
+        android:pathData="M12,18 a2,2,0,1,0,4,0 a2,2,0,1,0,-4,0"
+        android:fillColor="#A855F7" />
+    <!-- Fork/stem -->
+    <path
+        android:pathData="M14,12 L14,6"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <!-- Handlebar -->
+    <path
+        android:pathData="M11,7 L17,5"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+</vector>

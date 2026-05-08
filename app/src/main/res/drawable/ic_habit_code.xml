@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- Laptop/screen outline (rect x=4 y=8 w=20 h=14 rx=2) -->
+    <path
+        android:pathData="M6,8 L22,8 A2,2,0,0,1,24,10 L24,20 A2,2,0,0,1,22,22 L6,22 A2,2,0,0,1,4,20 L4,10 A2,2,0,0,1,6,8 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2" />
+    <!-- Horizontal divider -->
+    <path
+        android:pathData="M4,12 L24,12"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="1.5" />
+    <!-- Code block (rect x=8 y=15 w=5 h=3 rx=1) -->
+    <path
+        android:pathData="M9,15 L12,15 A1,1,0,0,1,13,16 L13,17 A1,1,0,0,1,12,18 L9,18 A1,1,0,0,1,8,17 L8,16 A1,1,0,0,1,9,15 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="1.2" />
+</vector>

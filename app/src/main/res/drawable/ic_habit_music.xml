@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- Left note head (circle cx=9 cy=19 r=4) -->
+    <path
+        android:pathData="M5,19 a4,4,0,1,0,8,0 a4,4,0,1,0,-8,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2" />
+    <!-- Right note head (circle cx=19 cy=17 r=4) -->
+    <path
+        android:pathData="M15,17 a4,4,0,1,0,8,0 a4,4,0,1,0,-8,0"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2" />
+    <!-- Staff/beam -->
+    <path
+        android:pathData="M13,19 V7 l10,-2 v12"
+        android:fillColor="#00000000"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2" />
+</vector>
